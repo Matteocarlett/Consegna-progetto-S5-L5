@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;700&display=swap');
+
+@media screen and (min-width: 1200px){
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #191919;
+}
+
+#m{
+    width: 30rem;
+}
+
+header{
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1.3px solid #191919;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#logo img{
+   width: 45%;
+   margin-left:6rem ;
+   margin-top: 0.4rem;
+}
+
+nav ul li {
+    display: inline;
+    margin:0.6rem;
+    font-size: 0.6em;   
+    cursor: pointer;
+}
+
+#start{
+    margin-right: 6rem;
+    background-color: #191919;
+    color: white;
+    font-size: 0.8em; 
+    padding: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    width: 4.7rem;
+    cursor: pointer;
+}
+
+#mainGiallo{
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.2px solid #191919;
+}
+
+h1{
+    font-family: 'Spectral', serif;
+    font-size: 4em;
+}
+
+#titolo{
+    text-align: left;
+    padding-top: 4rem;
+    padding-left: 6.6rem;
+
+}
+
+#titolo button{
+    background-color: #191919;
+    color: white;
+    font-size: 0.8em; 
+    padding: 0.3rem;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+#titolo p{
+    font-size: 0.9em;
+    margin-top: 1rem;
+}
+
+main{
+  margin-top: 5%;
+  border-bottom: solid 1.2px rgba(128, 128, 128, 0.188);
+}
+
+#containerTrend{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    font-size: 0.6em;
+}
+
+#trending {
+    display: flex;
+    font-size: 0.6em;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+#trending img{
+    width: 2%;
+    padding-right: 0.5rem;
+}
+
+.trend{
+    margin-right: 7rem;
+    max-width: 20%;
+    flex-basis: 17%;
+    margin-bottom: 1rem;
+}
+
+.number{
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 1rem;
+    color: grey;
+    opacity: 30%;
+}
+
+.user img{
+    width: 10%;
+    border-radius: 10px;
+    margin-right: 0.3rem;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user p {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.linkTrend p{
+    color: gray;
+    font-size: 0.7em;
+}
+
+.linkTrend h3{
+    font-weight: 800;
+    font-size: 0.9em;
+    padding: 0.5rem;
+}
+
+#stella1, #stella2, #stella3{
+    position: relative;
+    bottom: 0.75rem;
+    left: 4.5rem;
+}
+
+#stella1 img, #stella2 img , #stella3 img{
+    width: 8%;
+}
+
+#container{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+ /*.articoli{
+    display: flex;
+    flex-direction: column;
+} doveva essere cosi*/ 
+
+#containerArticoli{
+    display: flex;
+    /*justify-content: space-between; doveva essere cosi, ho capito ma non ho avuto tempo*/ 
+    flex-direction: column;
+    flex-basis: 30%;
+    margin-right: 20rem;
+}
+
+.piccole{
+    width: 7%;
+    border-radius: 10px;
+}
+.foto{
+    width: 70%;
+}
+
+.contenitoreArticoli p:first-of-type{
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+aside{
+    margin-right: 7rem;
+    display: flex;
+    flex-direction: column ;
+    
+}
+article h3{
+    font-size: 0.8em;
+    font-weight: 800;
+    padding-top:0.4rem
+}
+
+article p:nth-of-type(1){
+    color: grey;
+    font-size: 0.6em;
+
+}
+
+article p:nth-of-type(2){
+    color: grey;
+    font-size: 0.5em; 
+    padding-top: 0.7rem;
+}
+
+.foto{
+    position: relative;
+    bottom: 8rem;
+    left: 16rem;
+}
+#more{
+    display: flex;
+    flex-wrap: wrap;
+}
+#more p{
+    padding: 0.6rem;
+    font-size: 0.6em;
+    color: grey;
+}
+
+#titoloAside{
+    padding: 0.6rem;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#listaFine{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+
+#listaFine p{
+    padding: 0.6rem;
+    font-size: 0.6em;
+    color: grey;
+}
+
+
+
+
+
+
+
